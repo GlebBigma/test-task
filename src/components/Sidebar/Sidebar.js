@@ -22,7 +22,7 @@ const Sidebar = () => {
     <div className={isMobileMenu ? 'sidebar active' : 'sidebar'}>
       <div>
         <div className="sidebar__header">
-          <Link to={'/'}>
+          <Link to={'/home'}>
             <img src={logo} alt="Logo"/>
           </Link>
           <ButtonBurger isMobileMenu={isMobileMenu}

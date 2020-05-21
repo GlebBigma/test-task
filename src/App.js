@@ -18,7 +18,7 @@ function App() {
     <div className="app-wrapper">
       <Sidebar/>
       <Switch>
-        <Route path="/" component={Home} exact/>
+        <Route path="/home" component={Home} exact/>
         <Route path="/users" component={Users}/>
         <Route path="/sessions" component={Sessions}/>
         <Route path="/analytics" component={Analytics}/>
